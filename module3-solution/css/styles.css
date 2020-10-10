@@ -38,7 +38,8 @@ body {
   .navbar-toggle {
     display: none;
   }
-  .navbar-nav {
+}
+
+.navbar-nav {
     margin: 7.5px -15px;
   }
-}
