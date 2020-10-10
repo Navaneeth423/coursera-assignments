@@ -1,5 +1,5 @@
 .navbar-default {
-    background-color: #f8f8f8;
+    background-color: whitesmoke;
     border-color: #e7e7e7;
 }
 
@@ -40,5 +40,9 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: darkmagenta;
+}
+
+p,h3,h2{
+  color: black;
 }
