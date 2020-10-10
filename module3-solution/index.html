@@ -19,22 +19,29 @@
   <nav class="navbar navbar-default" id="navHeader">
     <div class="container">
       <div class="navbar-header">
-        <a href="#" class="navbar-brand pull-left">Food LLC</a>
-        <div id="collapsable-nav" class="navbar-collapse collapse" aria-expand="false">
-          <ul id="nav-list" class="nav navbar-left navbar-nav">
+        <div class="navbar-brand">
+          <a href="#" class="navbar-brand pull-left">Food LLC</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="collapsable-nav" class="navbar-collapse collapse" aria-expand="true">
+          <ul id="nav-list" class="visible-xs nav navbar-nav navbar-left">
             <li>
-              <a href="#chicken" class="visible-xs"></a>
+              <p class="text-center">Chicken</p>
             </li>
             <li>
-              <a href="#sushi" class="visible-xs"></a>
+              <p class="text-center">Sushi</p>
             </li>
             <li>
-              <a href="#beef" class="visible-xs"></a>
+              <p class="text-center">Beef</p>
             </li>
           </ul>
         </div>
       </div>
-    
+        </div>
     </div>
   </nav>
 </header>
