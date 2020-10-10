@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
@@ -21,30 +15,69 @@
 
   <body>
     <!--START HERE-->
-<nav class="navbar navbar-expand-sm fixed-top">
-  <div class="container">
-    <a href="index.html" class="navbar-brand">Food LLC</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a href="#home" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#explore-head-section" class="nav-link">Explore</a>
-        </li>
-        <li class="nav-item">
-          <a href="#create-head-section" class="nav-link">Create</a>
-        </li>
-        <li class="nav-item">
-          <a href="#share-head-section" class="nav-link">Share</a>
-        </li>
-      </ul>
+<header>
+  <nav class="navbar navbar-default" id="navHeader">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand pull-left">Food LLC</a>
+        <div id="collapsable-nav" class="navbar-collapse collapse" aria-expand="false">
+          <ul id="nav-list" class="nav navbar-left navbar-nav">
+            <li>
+              <a href="#chicken" class="visible-xs"></a>
+            </li>
+            <li>
+              <a href="#sushi" class="visible-xs"></a>
+            </li>
+            <li>
+              <a href="#beef" class="visible-xs"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    </div>
+  </nav>
+</header>
+
+<div id="main-content" class="container">
+  <h2 id="menu-title" class="text-center">Our Menu</h2>
+  <div id="menu-options" class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <h3 id="chicken-title">Chicken</h3>
+      <div id="chicken-desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <h3 id="sushi-title">Sushi</h3>
+      <div id="sushi-desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <h3 id="beef-title">Beef</h3>
+      <div id="beef-desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
   </div>
-</nav>
+</div>
+
 
     <script
       src="http://code.jquery.com/jquery-3.5.1.min.js"
